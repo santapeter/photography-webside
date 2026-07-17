@@ -222,7 +222,7 @@ const Contact = () => {
                   <option>Adventure Expeditions</option>
                   <option>Editorial Shoots</option>
                   <option>Video Production</option>
-                  <option>Workshops & Tours</option>
+                  <option>Workshops</option>
                   <option>Other</option>
                 </select>
               </div>

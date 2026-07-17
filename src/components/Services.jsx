@@ -22,7 +22,7 @@ const Services = () => {
     },
     {
       icon: BookOpen,
-      title: 'Workshops & Tours',
+      title: 'Workshops',
       description: 'Guided photography workshops in Thailand and Southeast Asia. Learn from the field, not a classroom.',
       price: 'From $1,200',
     },
