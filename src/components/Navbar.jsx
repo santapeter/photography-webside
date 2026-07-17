@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { photographerNameUpper } from '../config/site';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <a href="#home" className="block">
               <h2 className="text-2xl font-bold tracking-tight text-[#d8b56a] font-cinzel">
-                MIKE MAMUANG
+                {photographerNameUpper}
               </h2>
               <p className="text-[10px] tracking-[0.35em] uppercase text-[#a88a4a] mt-1 font-cinzel">Field Photographer</p>
             </a>

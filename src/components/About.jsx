@@ -1,4 +1,5 @@
 import { Camera, Mountain, Globe } from 'lucide-react';
+import { photographerName } from '../config/site';
 
 const About = () => {
   return (
@@ -11,10 +12,10 @@ const About = () => {
               Born in the Wild,<br />Raised by the Lens
             </h3>
             <p className="text-lg text-foreground/70 mb-6 leading-relaxed font-spectral">
-              Mike Mamuang is an adventure photographer based in Chiang Mai, Thailand, specializing in capturing the raw beauty of Southeast Asia's most remote landscapes and cultures.
+              {photographerName} is an adventure photographer based in Chiang Mai, Thailand, specializing in capturing the raw beauty of Southeast Asia's most remote landscapes and cultures.
             </p>
             <p className="text-lg text-foreground/70 mb-8 leading-relaxed font-spectral">
-              With over a decade of experience trekking through jungles, scaling mountains, and documenting forgotten temples, Mike's work has been featured in National Geographic, Adventure Journal, and countless publications worldwide.
+              With over a decade of experience trekking through jungles, scaling mountains, and documenting forgotten temples, {`${photographerName}'s`} work has been featured in National Geographic, Adventure Journal, and countless publications worldwide.
             </p>
 
             <div className="space-y-4">
@@ -53,7 +54,7 @@ const About = () => {
           <div className="relative">
             <img
               src="/images/photo-1605800232664-0b972bc644f2.jpg"
-              alt="Mike Mamuang"
+              alt={photographerName}
               className="w-full h-[600px] object-cover shadow-2xl"
             />
             <div className="absolute -bottom-6 -left-6 bg-[#f3e7cc] p-8 shadow-xl max-w-xs border border-[#d8bf8b]">
